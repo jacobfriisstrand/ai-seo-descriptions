@@ -24,8 +24,5 @@ api_version = "2026-01"
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
 
-[distribution]
-type = "single_merchant"
-
 [auth]
 redirect_urls = [ "https://example.com/auth/callback" ]
